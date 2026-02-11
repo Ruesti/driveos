@@ -1,0 +1,37 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# General build output
+build/
+out/
+dist/
+tmp/
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.img
+*.dtb
+*.dtbo
+*.itb
+*.map
+*.log
+
+# Kernel build
+*.ko
+Module.symvers
+modules.order
+
+# Yocto
+sstate-cache/
+downloads/
+
+# AOSP workspace (wenn nicht versioniert)
+aaos/aosp/
+aaos/out/
+aaos/.repo/
